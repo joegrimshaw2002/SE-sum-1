@@ -3,6 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ V.3-final-product-commit
+    <meta name="description" content="Interactive Financial Data Explorer and Interest Rate Analysis Tool">
+    <title>Financial Data Explorer</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script defer src="static/scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Financial Data Explorer</h1>
+        <p>Analyse historical and forecasted interest rates, and calculate savings growth.</p>
+    </header>
+    <main>
+        <!-- User Inputs -->
+        <section>
+            <h2>Interest Rate Analysis</h2>
+            <form id="analysis-form">
+                <label for="series-id">Select Series ID:</label>
+                <input type="text" id="series-id" placeholder="e.g., FEDFUNDS" required>
+
+                <label for="principal">Enter Principal Amount (£):</label>
+                <input type="number" id="principal" placeholder="e.g., 10000" required>
+
+                <label for="years">Enter Time Period (Years):</label>
+                <input type="number" id="years" placeholder="e.g., 10" required>
+
+                <button type="submit">Fetch & Analyse</button>
+            </form>
+            <div id="analysis-result"></div>
+        </section>
+
+        <!-- Visualisation Section -->
+        <section>
+            <h2>Visualisation</h2>
+            <div id="visualisation-container">
+                <p>The graph will load here after analysis...</p>
+            </div>
+        </section>
+
+        <!-- Forecast Results -->
+        <section>
+            <h2>ARIMA Forecast</h2>
+            <div id="forecast-result">
+                <p>The forecast will display here after analysis...</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Financial Data Explorer | Empowering smarter financial decisions.</p>
+    </footer>
+
     <title>Interest Rate Savings Calculator</title>
     <link rel="stylesheet" href="static/styles.css">
 </head>
@@ -24,5 +75,6 @@
         </section>
     </main>
     <script src="static/scripts.js"></script>
+ main
 </body>
 </html>
