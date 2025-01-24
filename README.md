@@ -163,18 +163,50 @@ The Financial Data Explorer ensured inclusivity, fairness, and security:
 
 These measures ensured the application was inclusive, trustworthy, and secure.
 
-## 7. Final Product Showcase
+## 7. Iterative Journey: From Concept to Final Product
 
-### 🔑 Key Features
-1. **Real-Time Data Integration**: Fetches live updates from the FRED API.  
-2. **Usage of Advanced Packages and Languages**: Python with SQL, CSS, JS, HTML.  
-3. **ARIMA Forecasting**: Provides short-term predictions with adjustable parameters.  
-4. **Savings Calculator**: Displays dynamic savings growth scenarios based on user inputs.  
+This section narrates the development journey of the Financial Data Explorer, showcasing the iterative improvements made over time. It highlights how the project evolved from a basic Python script to a polished and user-friendly web application, with each stage representing key advancements in functionality, usability, and design.
 
-**Placeholders:**  
-- Screenshots of the interface and core features.  
+### 🛠 Initial Version: A Basic Python Script
+The first iteration of the Financial Data Explorer was a simple command-line application written in Python.  
+- **Functionality**: This version utilised the FRED API to fetch real-time financial data and calculate savings growth based on user input.  
+- **Limitations**: While functional, it lacked a graphical interface, requiring users to interact solely via the command line. Additionally, error handling was minimal, and accessibility was not considered.  
 
-For more detailed user and technical documentation, please navigate to the wiki.
+**Placeholder**: Screenshot of the Python code output and a snippet of the script.  
+
+---
+
+### 🚧 Intermediate Version: Early Web Application
+The next iteration was a basic web application that introduced a graphical user interface using Flask.  
+- **Advancements**: The web app retained core functionalities, such as fetching data from the FRED API and performing savings calculations, but with a more accessible user interface.  
+- **Challenges**: Despite improvements, the design was not aesthetically pleasing, and the application contained several usability and performance issues, such as slow API requests and inconsistent input validation.  
+
+**Placeholder**: Screenshot of the early web application’s interface.  
+
+---
+
+### ✨ Final Version: The Polished Web Application
+Building on the lessons learned from previous iterations, the final product introduced significant enhancements in functionality, design, and usability:  
+- **Testing**: Comprehensive testing, including unit tests, integration tests, and stakeholder-informed usability testing, addressed bugs and improved performance.  
+- **Design and Accessibility**: WCAG 2.1 standards were implemented, and the interface was optimised for responsiveness, making it accessible across devices.  
+- **Caching Mechanisms**: Added to handle API rate limits and improve data retrieval efficiency.  
+
+**Placeholder**: Link back to Section 7’s description of the final product for detailed features.  
+
+---
+
+### Lessons Learned Through Iteration
+The iterative approach allowed the project to evolve from a simple tool to a robust application. Key lessons included:  
+1. **Early Prototypes Matter**: Early feedback helped identify critical design and functionality gaps.  
+2. **Testing is Essential**: Bugs and inefficiencies were systematically resolved by incorporating rigorous testing practices.  
+3. **User Feedback Drives Improvement**: Stakeholder input during each iteration directly influenced design decisions and feature prioritisation.
+
+**Placeholders**:  
+- Before-and-after comparison screenshots of the Python script, the early web app, and the final web app.  
+- Annotated timeline of iterative improvements.
+
+
+####For more detailed user and technical documentation, please navigate to the **wiki**.
 
 ## 8. Critical Reflection
 This section evaluates the project’s success by examining its strengths, limitations, and key lessons learned.
