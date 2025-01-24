@@ -68,6 +68,7 @@ Stakeholders’ iterative feedback shaped these user stories, ensuring alignment
 
 ![Figure x - Kanban](Images/kanban.png)
 *Figure x: Kanban.*
+Unknown author (n.d.). Kanban board workflow example. [image]
 
 Kanban was selected as the project management methodology for its flexibility and visual task tracking, essential for iterative development. According to Atlassian (2023), “Kanban allows teams to focus on workflow, identify bottlenecks, and adapt quickly to changes,” making it ideal for evolving projects like this.
 
@@ -87,10 +88,6 @@ Each task was labelled with priorities such as P1 (High Priority) or Bug, ensuri
 
 ### 🔄 Stakeholder Feedback
 Daily stand-ups and sprint reviews allowed stakeholders to monitor progress and suggest refinements. For example, a suggestion to include tooltips for input fields was incorporated to improve usability.
-
-**Placeholders:**  
-- Screenshot of Kanban board with tasks in progress.  
-- Image of a task card highlighting labels and priority levels.
 
 ## 4. Figma Prototyping
 The UI design was developed iteratively using Figma, balancing stakeholder feedback with accessibility requirements.
@@ -156,8 +153,9 @@ Pull requests included:
 - Reviewer comments to ensure code quality.  
 
 For example, during the ARIMA implementation, the pull request included test logs, a changelog, and a summary of challenges encountered.  
-
-**Placeholder**: Add a screenshot of a pull request with linked issues and test results.  
+ 
+![Figure x - Image Showing a Pull Request!](Images/pull-request.png)
+ *Figure x: Image Showing Pull Request.*
 
 ### 🐞 5.3 Issue Tracking and Bug Management  
 GitHub Issues were used to document and prioritise tasks, with labels such as Bug and Feature. Tasks were categorised by priority:  
@@ -166,7 +164,8 @@ GitHub Issues were used to document and prioritise tasks, with labels such as Bu
 
 **Example**: A bug related to API rate limits was resolved by implementing retry logic and error handling for failed requests.  
 
-**Placeholder**: Screenshot of a GitHub Issues.
+![Figure x - Image Showing Issues!](Images/issues.png)
+ *Figure x: Image Showing Issues.*
 
 ## 6. Ethical, Accessible, and Secure Development
 The Financial Data Explorer ensured inclusivity, fairness, and security:  
@@ -186,8 +185,6 @@ The first iteration of the Financial Data Explorer was a simple command-line app
 - **Functionality**: This version utilised the FRED API to fetch real-time financial data and calculate savings growth based on user input.  
 - **Limitations**: While functional, it lacked a graphical interface, requiring users to interact solely via the command line. Additionally, error handling was minimal, and accessibility was not considered.  
 
-**Placeholder**: Screenshot of the Python code output and a snippet of the script.  
-
 ---
 
 ### 🚧 Intermediate Version: Early Web Application
@@ -206,7 +203,16 @@ Building on the lessons learned from previous iterations, the final product intr
 - **Design and Accessibility**: WCAG 2.1 standards were implemented, and the interface was optimised for responsiveness, making it accessible across devices.  
 - **Caching Mechanisms**: Added to handle API rate limits and improve data retrieval efficiency.
 
--                          **ADD STUFF ABOUT THE FINAL VERSION**
+- ### 🔧 **Technologies Used**:
+- **Python**: Powers the backend with robust data processing and predictive analysis using ARIMA models.
+- **SQL**: Handles efficient data storage and retrieval, ensuring seamless integration with dynamic datasets.
+- **HTML, CSS, and JavaScript**: Provide a responsive, accessible, and visually appealing user interface.
+- **API Handling**: Integrates with external services like the FRED API to fetch real-time financial data.
+
+### 🚀 **Key Features**:
+1. **Predictive Analysis**: Uses time-series forecasting (ARIMA) to predict future trends, such as interest rate changes, enabling proactive decision-making.  
+2. **Advanced Visualisations**: Interactive charts and graphs help users analyse trends and compare scenarios effectively.  
+3. **Dynamic Savings Calculator**: Combines real-time data with user inputs to deliver accurate and personalised savings projections.  
 
 ![Figure x - Final Iteration of Product](Images/product-v3.png)
 
