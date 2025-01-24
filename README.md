@@ -95,11 +95,11 @@ The UI design was developed iteratively using Figma, balancing stakeholder feedb
 
 ### 🎨 Design Stages
 1. **Wireframing**: Focused on structure and navigation. Elements like input fields and visualisation areas were positioned to prioritise ease of use.
- ![Figure x - Initial FIGMA Design](images/FIGMA-V1.png)
+ ![Figure x - Initial FIGMA Design](Images/FIGMA-V1.png)
 2. **Prototyping**: Introduced interactive buttons, and responsive layouts to create a high-fidelity design.
-![Figure x - Prototype FIGMA Design](images/FIGMA-V2.png)
+![Figure x - Prototype FIGMA Design](Images/FIGMA-V2.png)
 3. **Final Design**: Integrated colour schemes,accessibility improvements, including ARIA labels and contrast adjustments.
-![Figure x - Final FIGMA Design](images/FIGMA-V3.png)
+![Figure x - Final FIGMA Design](Images/FIGMA-V3.png)
 
 ### Design Highlights
 - **Accessibility**: The UI adhered to WCAG 2.1 standards, ensuring inclusivity for visually and motor-impaired users (World Wide Web Consortium, 2018).  
@@ -132,9 +132,9 @@ Stakeholder feedback was incorporated into usability testing. For instance, init
 
 **Challenges**: Writing comprehensive tests for dynamic modules like the ARIMA model required extra effort, but this significantly reduced debugging during integration.  
 
-![Figure x - Image Showing Unittest Fail](images/unittest-fail.png)
+![Figure x - Image Showing Unittest Fail](Images/unittest-fail.png)
 
-![Figure x - Image Showing Unittest Pass!](images/unittest-pass.png)
+![Figure x - Image Showing Unittest Pass!](Images/unittest-pass.png)
  
 
 ### 🌱 5.2 Branches and Pull Requests  
@@ -189,7 +189,7 @@ The next iteration was a basic web application that introduced a graphical user 
 - **Advancements**: The web app retained core functionalities, such as fetching data from the FRED API and performing savings calculations, but with a more accessible user interface.  
 - **Challenges**: Despite improvements, the design was not aesthetically pleasing, and the application contained several usability and performance issues, such as slow API requests and inconsistent input validation.  
 
-![Figure x - Intermediate Iteration of Product](images/product-V2.png)
+![Figure x - Intermediate Iteration of Product](Images/product-V2.png)
 
 ---
 
@@ -201,9 +201,9 @@ Building on the lessons learned from previous iterations, the final product intr
 
 -                          **ADD STUFF ABOUT THE FINAL VERSION**
 
-![Figure x - Final Iteration of Product](images/product-V3.png)
-![Figure x - Final Iteration of Product](images/product-V3-part2.png)
-![Figure x - Final Iteration of Product](images/product-V3-part3.png)
+![Figure x - Final Iteration of Product](Images/product-V3.png)
+![Figure x - Final Iteration of Product](Images/product-V3-part2.png)
+![Figure x - Final Iteration of Product](Images/product-V3-part3.png)
 
 ---
 
