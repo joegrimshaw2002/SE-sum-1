@@ -224,12 +224,6 @@ Building on the lessons learned from previous iterations, the final product intr
 
 ---
 
-### Lessons Learned Through Iteration
-The iterative approach allowed the project to evolve from a simple tool to a robust application. Key lessons included:  
-1. **Early Prototypes Matter**: Early feedback helped identify critical design and functionality gaps.  
-2. **Testing is Essential**: Bugs and inefficiencies were systematically resolved by incorporating rigorous testing practices.  
-3. **User Feedback Drives Improvement**: Stakeholder input during each iteration directly influenced design decisions and feature prioritisation.
-
 ### For more detailed user and technical documentation, please visit the [Wiki](https://github.com/joegrimshaw2002/SE-sum-1/wiki).
 
 
@@ -240,35 +234,25 @@ This section evaluates the project’s success by examining its strengths, limit
 1. **Technical Sophistication**  
    The integration of ARIMA models demonstrated an advanced understanding of time-series forecasting. ARIMA’s adaptability to non-seasonal data made it an ideal choice for short-term financial predictions (Hyndman and Athanasopoulos, 2018).
 
-2. **User-Centric Design**  
-   Accessibility features aligned with WCAG 2.1 standards ensured inclusivity. For example, ARIA labels and high-contrast themes catered to visually impaired users (World Wide Web Consortium, 2018).
-
-3. **Professional Workflows**  
+2. **Professional Workflows**  
    Agile Kanban provided a flexible framework for task management, while GitHub Actions ensured CI pipelines maintained code quality. These practices align with Beck’s (2001) emphasis on iterative development and collaboration.
 
 ### ❌ 8.2 Limitations
 1. **API Dependency**  
    The reliance on the FRED API introduced challenges, such as rate limits and potential downtime. While caching mitigated some issues, the system remains dependent on external data sources.
 
-2. **Forecasting Complexity**  
-   ARIMA performed well for short-term predictions but struggled with datasets containing seasonal patterns. Future iterations could explore SARIMA or machine learning models for improved accuracy (Hyndman et al., 2018).
-
-3. **Time Constraints**  
+2. **Time Constraints**  
    Some advanced features, like user-specific settings, were deprioritised due to limited development time.
 
 ### 💡 8.3 Lessons Learned
 1. **Value of TDD**  
    Even though it can take time and can feel painful, writing tests before implementation reduced debugging time overall significantly. As Beck (2002) highlights, *“TDD ensures cleaner code by preventing issues from the outset.”*
 
-2. **Importance of Accessibility**  
-   Iterative testing with tools like Lighthouse revealed critical accessibility issues that were resolved before deployment. This experience reinforced the importance of prioritising inclusivity in design (Mace, 1985).
-
-3. **Value of Following Best Practices for Software Engineering**  
+2. **Value of Following Best Practices for Software Engineering**  
    The learning curve for this task was steep but rewarding. Even though the overall process of following best practice and not cutting corners adds a lot more time, it allows for very clear, accountable, and effective code and development.
 
 ### 💡 8.4 Recommendations for Future Development
 - **Pre-Commit Hooks and Linting**: Implement tools like ESLint or Prettier to enforce coding standards automatically before committing. As Fowler (1999) notes, *“clean code reduces technical debt and ensures maintainability.”*  
-- **Enhanced CI/CD Pipelines**: Integrate static code analysis and vulnerability scanning tools (e.g., SonarQube), which OWASP (2023) recommends for identifying security flaws early.  
 - **Mutation Testing**: Use tools like Stryker to evaluate test suite robustness by simulating code changes. Beck (2002) highlights that *“strong testing increases confidence in software reliability.”*  
 - **Automated Documentation**: Generate consistent technical documentation with tools like JSDoc to reduce manual effort and streamline onboarding (World Wide Web Consortium, 2018).
 
