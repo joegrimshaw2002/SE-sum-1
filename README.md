@@ -1,5 +1,33 @@
 # 🎯 Financial Data Explorer README
 
+# 📑 Table of Contents
+1. [🎯 Assignment Aim](#-assignment-aim)
+2. [Stakeholder Requirements/User Stories](#stakeholder-requirementsuser-stories)
+    - [🧑‍💼 User Story 1](#-user-story-1)
+    - [🏡 User Story 2](#-user-story-2)
+    - [🛠 User Story 3](#-user-story-3)
+3. [Planning](#planning)
+    - [🛠 Why Kanban?](#-why-kanban)
+    - [📋 Kanban Board Implementation](#-kanban-board-implementation)
+    - [🔄 Stakeholder Feedback](#-stakeholder-feedback)
+4. [Figma Prototyping](#figma-prototyping)
+    - [🎨 Design Stages](#-design-stages)
+    - [Design Highlights](#design-highlights)
+5. [Software Engineering Practices](#software-engineering-practices)
+    - [🧪 5.1 Testing and Test-Driven Development (TDD)](#-51-testing-and-test-driven-development-tdd)
+    - [🌱 5.2 Branches and Pull Requests](#-52-branches-and-pull-requests)
+    - [🐞 5.3 Issue Tracking and Bug Management](#-53-issue-tracking-and-bug-management)
+6. [Ethical, Accessible, and Secure Development](#ethical-accessible-and-secure-development)
+7. [Final Product Showcase](#final-product-showcase)
+    - [🔑 Key Features](#-key-features)
+8. [Critical Reflection](#critical-reflection)
+    - [✅ 8.1 Strengths](#-81-strengths)
+    - [❌ 8.2 Limitations](#-82-limitations)
+    - [💡 8.3 Lessons Learned](#-83-lessons-learned)
+    - [💡 8.4 Recommendations for Future Development](#-84-recommendations-for-future-development)
+9. [📚 References](#-references)
+
+
 ## 1. Assignment Aim
 The objective of this assignment was to design, develop, and evaluate a software product that incorporates advanced software engineering practices while addressing a real-world problem. The project was guided by the following goals:
 1. **Problem Identification**: Develop a practical solution tailored to stakeholder needs, delivering measurable benefits to both professional and individual users.
