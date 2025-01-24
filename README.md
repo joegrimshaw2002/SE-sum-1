@@ -66,7 +66,7 @@ Stakeholders’ iterative feedback shaped these user stories, ensuring alignment
 
 ### 🛠 Why Kanban?
 
-![Figure x - Kanban](images/kanban.png)
+![Figure x - Kanban](Images/kanban.png)
 
 Kanban was selected as the project management methodology for its flexibility and visual task tracking, essential for iterative development. According to Atlassian (2023), “Kanban allows teams to focus on workflow, identify bottlenecks, and adapt quickly to changes,” making it ideal for evolving projects like this.
 
