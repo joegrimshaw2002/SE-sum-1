@@ -1,0 +1,43 @@
+# Python related
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# MacOS files
+.DS_Store
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Node.js related
+node_modules/
+
+# Testing outputs
+unittest_output.txt
+coverage/
+
+# Build files
+dist/
+build/
+
+# Environment variables
+.env
+
+# Static and cache files
+staticfiles/
+.cache/
+
+# Flask related
+instance/
+*.sqlite3
