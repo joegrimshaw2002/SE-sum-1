@@ -32,7 +32,7 @@
 The objective of this assignment was to design, develop, and evaluate a software product that incorporates advanced software engineering practices while addressing a real-world problem. The project was guided by the following goals:
 1. **Problem Identification**: Develop a practical solution tailored to stakeholder needs, delivering measurable benefits to both professional and individual users.
 2. **Planning and Design**: Use modern planning frameworks, such as Agile and Figma prototyping, to structure and visualise the development process iteratively.
-3. **Implementation and Testing**: Showcase best practices, including test-driven development (TDD) and GitHub, to produce a maintainable, scalable codebase.
+3. **Implementation and Testing**: Showcase best practices, including test-driven development (TDD), project management, and GitHub, to produce a maintainable, scalable codebase.
 4. **Evaluation and Reflection**: Critically assess the project’s strengths, limitations, and key lessons learned.
 
 The final product, the Financial Data Explorer, is a web application that provides real-time financial data, predictive analytics, and personalised savings calculations. This tool aims to bridge the gap between accessibility for normal users and technical expertise for professionals.
@@ -65,6 +65,9 @@ Stakeholders’ iterative feedback shaped these user stories, ensuring alignment
 ## 3. Planning
 
 ### 🛠 Why Kanban?
+
+![Figure x - Kanban](images/kanban.png)
+
 Kanban was selected as the project management methodology for its flexibility and visual task tracking, essential for iterative development. According to Atlassian (2023), “Kanban allows teams to focus on workflow, identify bottlenecks, and adapt quickly to changes,” making it ideal for evolving projects like this.
 
 An evaluation of alternatives, such as Waterfall, showed potential limitations in handling changes to requirements mid-development. Agile Kanban’s ability to continuously integrate feedback made it more suitable, aligning with the assignment's objectives of adaptability and iteration.
@@ -78,6 +81,8 @@ Tasks were organised on a GitHub Projects board into four columns:
 
 Each task was labelled with priorities such as P1 (High Priority) or Bug, ensuring clarity in resource allocation. Dependencies, like API integration for ARIMA models, were tracked to prevent bottlenecks.
 
+![Figure x - Image Showing Kanban Usage at Planning Stage](images/using-kanban.png)
+
 ### 🔄 Stakeholder Feedback
 Daily stand-ups and sprint reviews allowed stakeholders to monitor progress and suggest refinements. For example, a suggestion to include tooltips for input fields was incorporated to improve usability.
 
@@ -89,16 +94,16 @@ Daily stand-ups and sprint reviews allowed stakeholders to monitor progress and 
 The UI design was developed iteratively using Figma, balancing stakeholder feedback with accessibility requirements.
 
 ### 🎨 Design Stages
-1. **Wireframing**: Focused on structure and navigation. Elements like input fields and visualisation areas were positioned to prioritise ease of use.  
-2. **Prototyping**: Introduced colour schemes, interactive buttons, and responsive layouts to create a high-fidelity design.  
-3. **Final Design**: Integrated accessibility improvements, including ARIA labels and contrast adjustments.
+1. **Wireframing**: Focused on structure and navigation. Elements like input fields and visualisation areas were positioned to prioritise ease of use.
+ ![Figure x - Initial FIGMA Design](images/FIGMA-V1.png)
+2. **Prototyping**: Introduced interactive buttons, and responsive layouts to create a high-fidelity design.
+![Figure x - Prototype FIGMA Design](images/FIGMA-V2.png)
+3. **Final Design**: Integrated colour schemes,accessibility improvements, including ARIA labels and contrast adjustments.
+![Figure x - Final FIGMA Design](images/FIGMA-V3.png)
 
 ### Design Highlights
 - **Accessibility**: The UI adhered to WCAG 2.1 standards, ensuring inclusivity for visually and motor-impaired users (World Wide Web Consortium, 2018).  
 - **Responsiveness**: Optimised for different devices to provide a seamless experience across mobile and desktop.
-
-**Placeholders:**  
-- Wireframe and final prototype screenshots.
 
 ## 5. Software Engineering Practices
 The development of the Financial Data Explorer followed rigorous software engineering practices to ensure maintainability, scalability, and high-quality output.  
@@ -127,7 +132,10 @@ Stakeholder feedback was incorporated into usability testing. For instance, init
 
 **Challenges**: Writing comprehensive tests for dynamic modules like the ARIMA model required extra effort, but this significantly reduced debugging during integration.  
 
-**Placeholder**: Insert a Jest test report showing pass/fail results.  
+![Figure x - Image Showing Unittest Fail](images/unittest-fail.png)
+
+![Figure x - Image Showing Unittest Pass!](images/unittest-pass.png)
+ 
 
 ### 🌱 5.2 Branches and Pull Requests  
 GitHub was used extensively for version control, enabling collaborative workflows and maintaining a clean codebase.  
@@ -152,7 +160,7 @@ GitHub Issues were used to document and prioritise tasks, with labels such as Bu
 
 **Example**: A bug related to API rate limits was resolved by implementing retry logic and error handling for failed requests.  
 
-**Placeholder**: Screenshot of a GitHub Issue card with detailed descriptions.
+**Placeholder**: Screenshot of a GitHub Issues.
 
 ## 6. Ethical, Accessible, and Secure Development
 The Financial Data Explorer ensured inclusivity, fairness, and security:  
@@ -181,7 +189,7 @@ The next iteration was a basic web application that introduced a graphical user 
 - **Advancements**: The web app retained core functionalities, such as fetching data from the FRED API and performing savings calculations, but with a more accessible user interface.  
 - **Challenges**: Despite improvements, the design was not aesthetically pleasing, and the application contained several usability and performance issues, such as slow API requests and inconsistent input validation.  
 
-**Placeholder**: Screenshot of the early web application’s interface.  
+![Figure x - Intermediate Iteration of Product](images/product-V2.png)
 
 ---
 
@@ -189,9 +197,13 @@ The next iteration was a basic web application that introduced a graphical user 
 Building on the lessons learned from previous iterations, the final product introduced significant enhancements in functionality, design, and usability:  
 - **Testing**: Comprehensive testing, including unit tests, integration tests, and stakeholder-informed usability testing, addressed bugs and improved performance.  
 - **Design and Accessibility**: WCAG 2.1 standards were implemented, and the interface was optimised for responsiveness, making it accessible across devices.  
-- **Caching Mechanisms**: Added to handle API rate limits and improve data retrieval efficiency.  
+- **Caching Mechanisms**: Added to handle API rate limits and improve data retrieval efficiency.
 
-**Placeholder**: Link back to Section 7’s description of the final product for detailed features.  
+-                          **ADD STUFF ABOUT THE FINAL VERSION**
+
+![Figure x - Final Iteration of Product](images/product-V3.png)
+![Figure x - Final Iteration of Product](images/product-V3-part2.png)
+![Figure x - Final Iteration of Product](images/product-V3-part3.png)
 
 ---
 
@@ -200,11 +212,6 @@ The iterative approach allowed the project to evolve from a simple tool to a rob
 1. **Early Prototypes Matter**: Early feedback helped identify critical design and functionality gaps.  
 2. **Testing is Essential**: Bugs and inefficiencies were systematically resolved by incorporating rigorous testing practices.  
 3. **User Feedback Drives Improvement**: Stakeholder input during each iteration directly influenced design decisions and feature prioritisation.
-
-**Placeholders**:  
-- Before-and-after comparison screenshots of the Python script, the early web app, and the final web app.  
-- Annotated timeline of iterative improvements.
-
 
 ####For more detailed user and technical documentation, please navigate to the **wiki**.
 
