@@ -97,13 +97,13 @@ The UI design was developed iteratively using Figma, balancing stakeholder feedb
 
 ### 🎨 Design Stages
 1. **Wireframing**: Focused on structure and navigation. Elements like input fields and visualisation areas were positioned to prioritise ease of use.
- ![Figure x - Initial FIGMA Design](Images/FIGMA-V1.png)
+ ![Figure x - Initial FIGMA Design](Images/FIGMA-v1.png)
 *Figure x: Initial FIGMA Design.*
 3. **Prototyping**: Introduced interactive buttons, and responsive layouts to create a high-fidelity design.
-![Figure x - Prototype FIGMA Design](Images/FIGMA-V2.png)
+![Figure x - Prototype FIGMA Design](Images/FIGMA-v2.png)
 *Figure x: Prototype FIGMA Design.*
 5. **Final Design**: Integrated colour schemes,accessibility improvements, including ARIA labels and contrast adjustments.
-![Figure x - Final FIGMA Design](Images/FIGMA-V3.png)
+![Figure x - Final FIGMA Design](Images/FIGMA-v3.png)
 *Figure x: Final FIGMA Design.*
 
 ### Design Highlights
