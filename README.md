@@ -81,7 +81,7 @@ Tasks were organised on a GitHub Projects board into four columns:
 
 Each task was labelled with priorities such as P1 (High Priority) or Bug, ensuring clarity in resource allocation. Dependencies, like API integration for ARIMA models, were tracked to prevent bottlenecks.
 
-![Figure x - Image Showing Kanban Usage at Planning Stage](images/using-kanban.png)
+![Figure x - Image Showing Kanban Usage at Planning Stage](Images/using-kanban.png)
 
 ### 🔄 Stakeholder Feedback
 Daily stand-ups and sprint reviews allowed stakeholders to monitor progress and suggest refinements. For example, a suggestion to include tooltips for input fields was incorporated to improve usability.
