@@ -67,6 +67,7 @@ Stakeholders’ iterative feedback shaped these user stories, ensuring alignment
 ### 🛠 Why Kanban?
 
 ![Figure x - Kanban](Images/kanban.png)
+*Figure x: Kanban.*
 
 Kanban was selected as the project management methodology for its flexibility and visual task tracking, essential for iterative development. According to Atlassian (2023), “Kanban allows teams to focus on workflow, identify bottlenecks, and adapt quickly to changes,” making it ideal for evolving projects like this.
 
@@ -82,6 +83,7 @@ Tasks were organised on a GitHub Projects board into four columns:
 Each task was labelled with priorities such as P1 (High Priority) or Bug, ensuring clarity in resource allocation. Dependencies, like API integration for ARIMA models, were tracked to prevent bottlenecks.
 
 ![Figure x - Image Showing Kanban Usage at Planning Stage](Images/using-kanban.png)
+*Figure x: Image Showing Kanban Usage at Planning Stage.*
 
 ### 🔄 Stakeholder Feedback
 Daily stand-ups and sprint reviews allowed stakeholders to monitor progress and suggest refinements. For example, a suggestion to include tooltips for input fields was incorporated to improve usability.
@@ -96,10 +98,13 @@ The UI design was developed iteratively using Figma, balancing stakeholder feedb
 ### 🎨 Design Stages
 1. **Wireframing**: Focused on structure and navigation. Elements like input fields and visualisation areas were positioned to prioritise ease of use.
  ![Figure x - Initial FIGMA Design](Images/FIGMA-V1.png)
-2. **Prototyping**: Introduced interactive buttons, and responsive layouts to create a high-fidelity design.
+*Figure x: Initial FIGMA Design.*
+3. **Prototyping**: Introduced interactive buttons, and responsive layouts to create a high-fidelity design.
 ![Figure x - Prototype FIGMA Design](Images/FIGMA-V2.png)
-3. **Final Design**: Integrated colour schemes,accessibility improvements, including ARIA labels and contrast adjustments.
+*Figure x: Prototype FIGMA Design.*
+5. **Final Design**: Integrated colour schemes,accessibility improvements, including ARIA labels and contrast adjustments.
 ![Figure x - Final FIGMA Design](Images/FIGMA-V3.png)
+*Figure x: Final FIGMA Design.*
 
 ### Design Highlights
 - **Accessibility**: The UI adhered to WCAG 2.1 standards, ensuring inclusivity for visually and motor-impaired users (World Wide Web Consortium, 2018).  
@@ -133,9 +138,10 @@ Stakeholder feedback was incorporated into usability testing. For instance, init
 **Challenges**: Writing comprehensive tests for dynamic modules like the ARIMA model required extra effort, but this significantly reduced debugging during integration.  
 
 ![Figure x - Image Showing Unittest Fail](Images/unittest-fail.png)
+*Figure x: Image Showing Unittest Fail.*
 
 ![Figure x - Image Showing Unittest Pass!](Images/unittest-pass.png)
- 
+ *Figure x: Image Showing Unittest Pass.*
 
 ### 🌱 5.2 Branches and Pull Requests  
 GitHub was used extensively for version control, enabling collaborative workflows and maintaining a clean codebase.  
@@ -189,7 +195,8 @@ The next iteration was a basic web application that introduced a graphical user 
 - **Advancements**: The web app retained core functionalities, such as fetching data from the FRED API and performing savings calculations, but with a more accessible user interface.  
 - **Challenges**: Despite improvements, the design was not aesthetically pleasing, and the application contained several usability and performance issues, such as slow API requests and inconsistent input validation.  
 
-![Figure x - Intermediate Iteration of Product](Images/product-V2.png)
+![Figure x - Intermediate Iteration of Product](Images/product-v2.png)
+*Figure x: Intermediate Iteration of Product.*
 
 ---
 
@@ -201,9 +208,13 @@ Building on the lessons learned from previous iterations, the final product intr
 
 -                          **ADD STUFF ABOUT THE FINAL VERSION**
 
-![Figure x - Final Iteration of Product](Images/product-V3.png)
-![Figure x - Final Iteration of Product](Images/product-V3-part2.png)
-![Figure x - Final Iteration of Product](Images/product-V3-part3.png)
+![Figure x - Final Iteration of Product](Images/product-v3.png)
+
+![Figure x - Final Iteration of Product](Images/product-v3-part2.png)
+
+![Figure x - Final Iteration of Product](Images/product-v3-part3.png)
+
+*Figure x: Final Iteration of Product.*
 
 ---
 
@@ -213,7 +224,8 @@ The iterative approach allowed the project to evolve from a simple tool to a rob
 2. **Testing is Essential**: Bugs and inefficiencies were systematically resolved by incorporating rigorous testing practices.  
 3. **User Feedback Drives Improvement**: Stakeholder input during each iteration directly influenced design decisions and feature prioritisation.
 
-####For more detailed user and technical documentation, please navigate to the **wiki**.
+### For more detailed user and technical documentation, please visit the [Wiki](https://github.com/joegrimshaw2002/SE-sum-1/wiki).
+
 
 ## 8. Critical Reflection
 This section evaluates the project’s success by examining its strengths, limitations, and key lessons learned.
