@@ -272,7 +272,10 @@ This section evaluates the project’s success by examining its strengths, limit
 - **Mutation Testing**: Use tools like Stryker to evaluate test suite robustness by simulating code changes. Beck (2002) highlights that *“strong testing increases confidence in software reliability.”*  
 - **Automated Documentation**: Generate consistent technical documentation with tools like JSDoc to reduce manual effort and streamline onboarding (World Wide Web Consortium, 2018).
 
+To sum, this assignment was very enjoyable and provided an excellent opportunity to learn and apply advanced software engineering practices. Very valuable experience was gained, and the benefits of adhering to best practices are clear, and these skills will be applied for all future projects.
+
 ## 📚 References
+- Atlassian (2023). *What is Kanban?* Available at: [https://www.atlassian.com/agile/kanban](https://www.atlassian.com/agile/kanban) (Accessed: 20 January 2025).
 - Beck, K. (2002). *Test-Driven Development: By Example*. Addison-Wesley Professional.  
 - Beck, K., et al. (2001). *Agile Manifesto*. Available at: [https://agilemanifesto.org](https://agilemanifesto.org) [Accessed 21 Jan. 2025].  
 - Fowler, M. (1999). *Refactoring: Improving the Design of Existing Code*. Addison-Wesley Professional.  
@@ -280,6 +283,7 @@ This section evaluates the project’s success by examining its strengths, limit
 - ICO (2023). *Guide to the General Data Protection Regulation (GDPR)*. Available at: [https://gdpr-info.eu](https://gdpr-info.eu) [Accessed 22 Jan. 2025].  
 - Mace, R.L. (1985). *Universal Design: Barrier-Free Environments for Everyone*. Designers West.  
 - OWASP (2023). *OWASP Dependency-Check*. Available at: [https://owasp.org/www-project-dependency-check/](https://owasp.org/www-project-dependency-check/) [Accessed 18 Jan. 2025].  
-- Parnas, D.L. (1979). *Designing Software for Ease of Extension and Contraction*. IEEE Transactions on Software Engineering, 5(2), pp. 128–138. Available at: [https://ieeexplore.ieee.org/document/170265](https://ieeexplore.ieee.org/document/170265) [Accessed 18 Jan. 2025].  
+- Parnas, D.L. (1979). *Designing Software for Ease of Extension and Contraction*. IEEE Transactions on Software Engineering, 5(2), pp. 128–138. Available at: [https://ieeexplore.ieee.org/document/170265](https://ieeexplore.ieee.org/document/170265) [Accessed 18 Jan. 2025].
+- - Unknown author (n.d.). *Kanban board workflow example* [image]. (Accessed: 24 January 2025).  
 - World Wide Web Consortium (2018). *Web Content Accessibility Guidelines (WCAG) 2.1*. Available at: [https://www.w3.org/TR/WCAG21/](https://www.w3.org/TR/WCAG21/) [Accessed 18 Jan. 2025].
 
